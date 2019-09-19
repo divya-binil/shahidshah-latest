@@ -1,0 +1,26 @@
+{{ $ := .root }}
+{{ $page := .page }}
+<div class="container">
+    {{ with $page.Title }}
+    <div class="tabhead"><h2>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h2></div> 
+    {{ end }}
+    <div class="row">
+    {{ with $page.Content }}
+    <div class="col-md-12">
+      {{ . }}
+    </div>
+    {{ end }}
+    {{ range $page.Params.feature }}
+      <div class="col-12 col-md-3 col-sm-6">
+          <div class="media-member text-center">
+              <div class="member-photo">
+                  <a href="{{ .link }}" target="_blank" ><img class="img-fluid" src="{{.image | absURL }}" alt="image"></a>
+              </div>                           
+          </div>
+      </div> 
+    {{ end }}
+  </div>
+</div>
+<div>
+  <div class="more-view"><a href="{{ "mediacoverage/" }}" >More..</a></div>
+</div>

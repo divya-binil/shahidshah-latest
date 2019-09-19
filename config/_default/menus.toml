@@ -1,0 +1,97 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+
+[[main]]
+  name    = "Home"
+  url     = "/"
+  weight  = 30
+
+
+
+[[main]]
+  name    = "Profile"
+  url     = "https://www.linkedin.com/in/ShahidShah"
+  weight  = 60
+
+[[main]]
+  name    = "Speaker Decks"
+  url     = "https://speakerdeck.com/shah/"
+  weight  = 60
+
+[[main]]
+  name    = "Videos"
+  url     = "https://www.netspective.com/about-us/netspective-tv/"
+  weight  = 100
+
+[[main]]
+  identifier = "Blog"
+  name    = "Blog"
+  url     = "blog"
+  weight  = 40
+
+[[main]]
+  parent  = "Blog"
+  name    = "Architure & Engineering"
+  url     = "blog/"
+  weight  = 2
+[[main]]
+  parent  = "Blog"
+  name    = "Digital Health"
+  url     = "http://www.HealthcareGuy.com"
+  weight  = 2
+
+
+[[main]]
+  name = "Speaking Schedule"
+  url = "speaking-schedule/"
+  weight = 70
+  
+[[main]]
+  identifier = "Gallery"
+  name = "Gallery"
+  url = "gal-shahid/"
+  weight = 110
+
+[[main]]
+  parent  = "Gallery"
+  name    = "Shahidshah"
+  url     = "gal-shahid/"
+  weight  = 2
+[[main]]
+  parent  = "Gallery"
+  name    = "Conference"
+  url     = "gal-conference/"
+  weight  = 3
+
+[[main]]
+  name = "IP"
+  url = "ip/"
+  weight = 90
+
+[[main]]
+  name = "Speech Abstracts"
+  url = "speech-abstracts/"
+  weight = 80
+
+
+[[main]]
+  name = "Bios"
+  url = "bios/"
+  weight = 120
+
+#[[main]]
+# name = "Contact"
+#  url = "#contact"
+#  weight = 60
+
+
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# [[main]]
+#    name = "CV"
+#    url = "files/cv.pdf"
+#    weight = 70

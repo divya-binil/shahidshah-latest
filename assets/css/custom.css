@@ -1,0 +1,129 @@
+.card.experience.course {
+    border: 1px solid #ccc !important;
+}
+.tabhead {
+  text-align: center;
+}
+.more-view {
+  text-align: center;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  
+}
+/* Style the tab */
+.tabExp {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+/* Style the buttons inside the tab */
+.tabExp button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tabExp button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tabExp button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontentExp {
+  display: none; 
+}
+.tab {
+    text-align: center;
+}
+.card-body {
+    text-align: center;
+}
+
+.more-view {
+    text-align: center;
+    background: #e0e0e0;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.more-view a {
+    color: #a62229;
+}
+.more-view a:hover {
+    color: #000;
+}
+.tabcontent .row, .tabcontentExp .row {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #d5d5d5;
+}
+
+.media-member {
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.tabcontent .col-md-3 strong, .tabcontentExp .col-md-3 strong {
+    line-height: 20px;
+    font-size: 14px;
+    color: rgba(0,0,0,.85);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.tabcontent .col-md-3 p, .tabcontentExp .col-md-3 p {
+    color: #6f6f6f;
+    margin-bottom: 5px;
+}
+.tabcontent .col-md-8 p, .tabcontentExp .col-md-8 p {
+    color: #000;
+    font-size: 15px;
+}
+.tabcontent .col-md-3 span, .tabcontentExp .col-md-3 span {
+    color: #6f6f6f;
+    line-height: 17px !important;
+    font-size: 13px;
+    display: block;
+}
+.tabcontent .row, .tabcontentExp .row {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #d5d5d5;
+    font-size: 15px;
+}
+.card-title.exp-title.text-muted.my-0 {
+    font-size: initial;
+}
