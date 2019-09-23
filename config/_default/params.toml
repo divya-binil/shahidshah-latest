@@ -5,10 +5,14 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "minimal"
+
+theme = "rose"
 
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
+
+
+
 
 # Override the theme's font set (optional).
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
@@ -81,8 +85,7 @@ contact_links = [
 address = "Washington, DC."
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = """Monday 10:00 to 13:00 <br>
-                  Wednesday 09:00 to 10:00"""
+office_hours = """Monday 10:00 to 13:00 or email for appointment"""
 
 
 
@@ -171,8 +174,8 @@ sharing = true
   #   2: Commento (https://commento.io)
   engine = 1
 
-  # Which page types are commentable?
-  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
+  # Which page types are commentable? page = true, 
+  commentable = {post = true, docs = true, project = true, publication = true, talk = true}
 
   # Configuration of Disqus.
   [comments.disqus]

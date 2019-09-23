@@ -46,7 +46,7 @@
 
 [[main]]
   name = "Speaking Schedule"
-  url = "speaking-schedule/"
+  url = "past-speaking/"
   weight = 70
   
 [[main]]

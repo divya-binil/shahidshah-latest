@@ -1,6 +1,6 @@
 +++
 # A Skills section created with the Featurette widget.
-widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "past-speaking"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 33  # Order that this section will appear.
@@ -8,8 +8,9 @@ weight = 33  # Order that this section will appear.
 title = "Past Speaking Engagements"
 subtitle = ""
 
-
-viewmore = "mediacoverage/"
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["50px", "0", "80px", "0"]
 
 # Showcase personal skills or business features.
 # 
@@ -17,20 +18,20 @@ viewmore = "mediacoverage/"
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
-[[feature]]
+[[item]]
   image = "/img/MITSloan.png"
-  link = "http://www.politico.com/morningehealth/0614/morningehealth14180.html"
+  link = "http://www.cvent.com/events/2014-mit-sloan-cio-symposium/event-summary-599d8c57f62f4da189c80f158694cd84.aspx"
   
-[[feature]]
+[[item]]
   image = "/img/scansource.png"
-  link = "http://www.politico.com/morningehealth/0614/morningehealth14180.html"
+  link = "http://www.scansourceposbarcode.com/en/training/events/ss-bsm-smart-var-summit-1"
 
-[[feature]]
+[[item]]
   image = "/img/healthcare.png"
-  link = "http://www.politico.com/morningehealth/0614/morningehealth14180.html"
+  link = "http://tcbi.org/hcub13/"
 
-[[feature]]
+[[item]]
   image = "/img/imn_logo.png"
-  link = "http://www.politico.com/morningehealth/0614/morningehealth14180.html"
+  link = "http://www.imn.org/conference/Health-Impact-East/Agenda.html"
   
 +++

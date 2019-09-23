@@ -43,7 +43,7 @@ Shahid N. Shah is the Chief Architect of OMB’s Budget System Branch and the Bu
 Please take your pick and crop as necessary.
 
 <div id="attachment_36623" style="width: 310px" class="wp-caption alignleft">
-  <a href="/page/2014/03/0ShahidS7564.jpg" rel="attachment wp-att-36623"><img class="wp-image-36623 size-medium" src="/page/2014/03/0ShahidS7564-300x204.jpg" alt="Snapped in 2015" width="300" height="204" srcset="http://session.shahidshah.com//uploads/2014/03/0ShahidS7564-300x204.jpg 300w, http://session.shahidshah.com//uploads/2014/03/0ShahidS7564-768x523.jpg 768w, http://session.shahidshah.com//uploads/2014/03/0ShahidS7564-1024x697.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="/img/bios/0ShahidS7564-300x204.jpg" rel="attachment wp-att-36623"><img class="wp-image-36623 size-medium" src="/img/bios/0ShahidS7564-300x204.jpg" alt="Snapped in 2015" width="300" height="204"  sizes="(max-width: 300px) 100vw, 300px" /></a>
   
   <p class="wp-caption-text">
     Print or Online (Jumbo)
@@ -51,7 +51,7 @@ Please take your pick and crop as necessary.
 </div>
 
 <div id="attachment_36621" style="width: 160px" class="wp-caption alignleft">
-  <a href="/page/2014/03/portrait-ibm-insight-2015.jpg"><img class="wp-image-36621 size-thumbnail" src="/page/2016/10/portrait-ibm-insight-2015-150x225.jpg" alt="Snapped in 2015" width="150" height="225" /></a>
+  <a href="/img/bios/portrait-ibm-insight-2015-150x225.jpg"><img class="wp-image-36621 size-thumbnail" src="/img/bios/portrait-ibm-insight-2015-150x225.jpg" alt="Snapped in 2015" width="150" height="225" /></a>
   
   <p class="wp-caption-text">
     Print or Online (Medium)
@@ -59,7 +59,7 @@ Please take your pick and crop as necessary.
 </div>
 
 <div id="attachment_36622" style="width: 160px" class="wp-caption alignleft">
-  <a href="/page/2016/10/portrait-ibm-insight-2015-150x225.jpg"><img class="wp-image-36622 size-thumbnail" src="/page/2016/10/mugshot_2013_1-150x190.jpg" alt="Snapped in 2015" width="150" height="190" /></a>
+  <a href="/img/bios/mugshot_2013_1-150x190.jpg"><img class="wp-image-36622 size-thumbnail" src="/img/bios/mugshot_2013_1-150x190.jpg" alt="Snapped in 2015" width="150" height="190" /></a>
   
   <p class="wp-caption-text">
     Online (Medium)
