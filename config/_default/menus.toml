@@ -35,7 +35,7 @@
 [[main]]
   parent  = "Blog"
   name    = "Architure & Engineering"
-  url     = "blog/"
+  url     = "post/"
   weight  = 2
 [[main]]
   parent  = "Blog"
