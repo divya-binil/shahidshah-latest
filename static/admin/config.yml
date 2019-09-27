@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Testimonial"
     files:
-      - file: "content/media-coverage/_index.md"
+      - file: "content/media-coverage"
         label: "media coverage Page"
         name: "media-coverage"
         fields:
