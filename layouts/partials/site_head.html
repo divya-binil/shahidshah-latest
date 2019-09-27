@@ -154,6 +154,7 @@
       {{ $og_desc = $.Param "description" }}
   {{ end }} 
 
+
   <meta property="twitter:card" content="summary">
   <meta property="twitter:title" content="{{ if not .IsHome }}{{ .Title }} - {{ site.Params.sitename }}{{ else }} {{ site.Params.sitename }} - {{ site.Params.homeogtitle }}   {{ end }}">
   
@@ -179,6 +180,8 @@
   {{- with $og_desc -}}
   <meta property="og:description" content="{{ $og_desc }}">
   <meta property="twitter:description" content="{{ $og_desc }}">
+
+  
   {{- end -}}
 
   {{- with $ogimage -}}
@@ -196,10 +199,10 @@
     {{if not .Date.IsZero }}
         <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}" />
     {{ end }}
-    <!--{{- if not .Lastmod.IsZero }}
+    {{- if not .Lastmod.IsZero }}
         <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}" />
         <meta property="og:updated_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}" />
-    {{ end }}-->
+    {{ end }}
   {{ end }}
 
   {{ partial "jsonld/main" (dict "page" . "summary" $desc) }}

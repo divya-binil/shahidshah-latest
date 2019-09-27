@@ -35,7 +35,7 @@
 [[main]]
   parent  = "Blog"
   name    = "Architure & Engineering"
-  url     = "post/"
+  url     = "blog/architure-engineering/"
   weight  = 2
 [[main]]
   parent  = "Blog"
@@ -46,34 +46,34 @@
 
 [[main]]
   name = "Speaking Schedule"
-  url = "past-speaking/"
+  url = "speaking-schedule/"
   weight = 70
   
 [[main]]
   identifier = "Gallery"
   name = "Gallery"
-  url = "gal-shahid/"
+  url = "gallery/shahidshah/"
   weight = 110
 
 [[main]]
   parent  = "Gallery"
   name    = "Shahidshah"
-  url     = "gal-shahid/"
+  url     = "gallery/shahidshah/"
   weight  = 2
 [[main]]
   parent  = "Gallery"
   name    = "Conference"
-  url     = "gal-conference/"
+  url     = "gallery/conference/"
   weight  = 3
 
 [[main]]
   name = "IP"
-  url = "ip/"
+  url = "intellectual-property/"
   weight = 90
 
 [[main]]
   name = "Speech Abstracts"
-  url = "speech-abstracts/"
+  url = "speechabstracts/"
   weight = 80
 
 

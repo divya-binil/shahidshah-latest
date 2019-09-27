@@ -24,8 +24,17 @@ font = ""
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
 font_size = "L"
 
+# Name of your site
+sitename = "Shahid Shah"
+
+#og type for content pages
+ogtype = "article"
+
+homeogtype = "website"
+homeogtitle = "Shahid Shah Personal site"
+
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Shahid Shah Personal site"
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""
