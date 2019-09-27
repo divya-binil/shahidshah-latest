@@ -17,7 +17,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "categories", name: "categories", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"} 
   - name: "pages"
-    label: "Testimonial"
+    label: "media-coverage"
     files:
       - file: "content/media-coverage/_index.md"
         label: "media coverage Page"
