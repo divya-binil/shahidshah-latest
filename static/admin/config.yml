@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "sections"
     files:
-      - file: "content/media-coverage/index.md"
+      - file: "content/media-coverage/media-coverage.md"
         label: "media coverage Page"
         name: "media-coverage"
         fields:
@@ -28,7 +28,13 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Widget name", name: "widget", widget: "string"}
           - {label: "weight", name: "weight", widget: "string"}
           - label : "Media coverage Items"
-    
+            name: "mcover"
+            widget: "list"
+            fields:
+              - {label: "Date", name: "Date", widget: "string"}
+              - {label: "Link", name: "Link", widget: "string"}
+              - {label: "Name", name: "Name", widget: "string"}
+              - {label: "Title", name: "Title", widget: "string"}  
 
       - file: "content/intellectual-property/index.md"
         label: "Intellectual Property Page"
