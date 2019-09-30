@@ -146,7 +146,88 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "company", name: "company", widget: "string"}
               - {label: "date_start", name: "date_start", widget: "string"}
               - {label: "description", name: "description", widget: "string"} 
-              - {label: "clientThumb", name: "clientThumb", widget: "image"} 
-
-     
-          
+              - {label: "clientThumb", name: "clientThumb", widget: "image"}
+      - file: "content/home/accomplishments.md"
+        label: Home Page- Recommendations  
+        name: "recommendations"
+        fields:
+          - {label: enable, name: active, widget: boolean, default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Widget name", name: "widget", widget: "string"}
+          - {label: "weight", name: "weight", widget: "string"}
+          - label : "Recommendations Items"
+            name: "item"
+            widget: "list"
+            fields:
+              - {label: "organization", name: "organization", widget: "string"}
+              - {label: "organization url", name: "organization_url", widget: "string"}
+              - {label: "Name", name: "title", widget: "string"}
+              - {label: "date_start", name: "date_start", widget: "string"} 
+              - {label: "description", name: "description", widget: "string"}
+              - {label: "Image", name: "clientThumb", widget: "image"}
+      - file: "content/home/pastspeakingeng.md"
+        label: Home Page- Past Speaking Engagements  
+        name: "pastspeakingeng"
+        fields:
+          - {label: enable, name: active, widget: boolean, default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Widget name", name: "widget", widget: "string"}
+          - {label: "weight", name: "weight", widget: "string"}
+          - label : "Past Speaking Items"
+            name: "item"
+            widget: "list"
+            fields:
+              - {label: "image", name: "image", widget: "image"}
+              - {label: "link", name: "link", widget: "string"}
+      - file: "content/home/contact.md"
+        label: Home Page- Contact  
+        name: "contact"
+        fields:
+          - {label: enable, name: active, widget: boolean, default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Widget name", name: "widget", widget: "string"}
+          - {label: "weight", name: "weight", widget: "string"}
+      - file: "content/home/endorsements.md"
+        label: Home Page- Endorsements  
+        name: "endorsements"
+        fields:
+          - {label: enable, name: active, widget: boolean, default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Widget name", name: "widget", widget: "string"}
+          - {label: "weight", name: "weight", widget: "string"}
+          - label : "Endorsements Items"
+            name: "item"
+            widget: "list"
+            fields:
+              - {label: "image", name: "image", widget: "image"}      
+      - file: "content/home/posts.md"
+        label: Home Page- Posts  
+        name: "posts"
+        fields:
+          - {label: enable, name: active, widget: boolean, default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Widget name", name: "widget", widget: "string"}
+          - {label: "weight", name: "weight", widget: "string"}
+      - file: "content/home/tweets.md"
+        label: Home Page- Tweets  
+        name: "tweets"
+        fields:
+          - {label: enable, name: active, widget: boolean, default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Widget name", name: "widget", widget: "string"}
+          - {label: "weight", name: "weight", widget: "string"}     
+      - file: "content/home/media-home.md"
+        label: Home Page- Media Coverage  
+        name: "media-home"
+        fields:
+          - {label: enable, name: active, widget: boolean, default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Widget name", name: "widget", widget: "string"}
+          - {label: "weight", name: "weight", widget: "string"}
+          - label : "Media Items"
+            name: "feature"
+            widget: "list"
+            fields:
+              - {label: "image", name: "image", widget: "image"}          
+              - {label: "link", name: "link", widget: "string"}  
+      
