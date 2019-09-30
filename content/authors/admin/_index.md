@@ -30,6 +30,7 @@ interests:
 - Machine Learning
 - Conversational UXs
 - Blockchain Business Networks
+- test
 
 education:
   courses:
