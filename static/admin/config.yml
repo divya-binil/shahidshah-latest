@@ -133,6 +133,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "content/home/admin/experience.md"
         label: Home Page- Experience  
         name: "experience"
+        fields:
           - {label: enable, name: active, widget: boolean, default: true}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Widget name", name: "widget", widget: "string"}
