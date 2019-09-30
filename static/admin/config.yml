@@ -108,11 +108,11 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Interests, name: interests, widget: list}
           - {label: "Body", name: "body", widget: "markdown"}
           - label: "Organisation details"
-              name: "organizations"
-              widget: "list"
-              fields:
-                - {label: "name", name: "name", widget: "string"}
-                - {label: "url", name: "url", widget: "string"}
+            name: "organizations"
+            widget: "list"
+            fields:
+              - {label: "name", name: "name", widget: "string"}
+              - {label: "url", name: "url", widget: "string"}
           
 
      
