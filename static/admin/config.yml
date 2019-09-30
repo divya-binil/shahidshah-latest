@@ -106,7 +106,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Author, name: authors, widget: list}
           - {label: "Role", name: "role", widget: "string"}
           - {label: Interests, name: interests, widget: list}
-          - {label: "Body", name: "body", widget: "markdown"}
           - label: "Organisation details"
             name: "organizations"
             widget: "list"
@@ -120,7 +119,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "icon", name: "icon", widget: "string"}
               - {label: "icon_pack", name: "icon_pack", widget: "string"}
               - {label: "link", name: "link", widget: "string"}
-
           - label: "Education details"
             name: "education"
             widget: "list"
@@ -131,7 +129,23 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: "course", name: "course", widget: "string"}
                   - {label: "institution", name: "institution", widget: "string"}
-              
+          - {label: "Body", name: "body", widget: "markdown"}  
+      - file: "content/home/admin/experience.md"
+        label: Home Page- Experience  
+        name: "experience"
+          - {label: enable, name: active, widget: boolean, default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Widget name", name: "widget", widget: "string"}
+          - {label: "weight", name: "weight", widget: "string"}
+          - label : "Experience Items"
+            name: "item"
+            widget: "list"
+            fields:
+              - {label: "title", name: "title", widget: "string"}
+              - {label: "company", name: "company", widget: "string"}
+              - {label: "date_start", name: "date_start", widget: "image"}
+              - {label: "description", name: "description", widget: "string"} 
+              - {label: "clientThumb", name: "clientThumb", widget: "image"} 
 
      
           
