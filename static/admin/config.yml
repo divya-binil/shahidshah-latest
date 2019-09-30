@@ -61,7 +61,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Widget name", name: "widget", widget: "string"}
           - {label: "weight", name: "weight", widget: "string"}
           - label : "Past speaking Items"
-            name: "speaking-items"
+            name: "item"
             widget: "list"
             fields:
               - {label: "Date", name: "Date", widget: "string"}
@@ -76,12 +76,29 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Title", name: "title", widget: "string"}  
           - {label: "Body", name: "body", widget: "markdown"}      
       - file: "content/bios/index.md"
-        label: Bios Page"
+        label: Bios Page
         name: "bios"
         fields:
           - {label: "Title", name: "title", widget: "string"}  
           - {label: "Author", name: "author", widget: "string"}  
-          - {label: "Body", name: "body", widget: "markdown"}  
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "content/gallery/shahidshah/index.md"
+        label: Gallery shahidshah
+        name: "shahidshah"
+        fields:
+          - {label: enable, name: active, widget: boolean, default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Widget name", name: "widget", widget: "string"}
+          - {label: "weight", name: "weight", widget: "string"}
+      - file: "content/gallery/conference/index.md"
+        label: Gallery conference
+        name: "conference"
+        fields:
+          - {label: enable, name: active, widget: boolean, default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Widget name", name: "widget", widget: "string"}
+          - {label: "weight", name: "weight", widget: "string"}
+          
 
      
           
