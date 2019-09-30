@@ -154,6 +154,9 @@
       {{ $og_desc = $.Param "description" }}
   {{ end }} 
 
+  {{ if .IsPage }}
+    {{ $og_desc = .Summary }}
+  {{ end }} 
 
   <meta property="twitter:card" content="summary">
   <meta property="twitter:title" content="{{ if not .IsHome }}{{ .Title }} - {{ site.Params.sitename }}{{ else }} {{ site.Params.sitename }} - {{ site.Params.homeogtitle }}   {{ end }}">
