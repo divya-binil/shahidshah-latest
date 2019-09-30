@@ -120,7 +120,18 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "icon", name: "icon", widget: "string"}
               - {label: "icon_pack", name: "icon_pack", widget: "string"}
               - {label: "link", name: "link", widget: "string"}
-          
+
+          - label: "Education details"
+            name: "education"
+            widget: "list"
+            fields:
+              - label: "Course details"
+                name: "courses"
+                widget: "list"
+                fields:
+                  - {label: "course", name: "course", widget: "string"}
+                  - {label: "institution", name: "institution", widget: "string"}
+              
 
      
           
