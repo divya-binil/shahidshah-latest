@@ -105,6 +105,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Name, name: name, widget: string}
           - {label: Author, name: authors, widget: list}
           - {label: "Role", name: "role", widget: "string"}
+          - {label: Interests, name: interests, widget: list}
           - {label: "Body", name: "body", widget: "markdown"}
           
 
