@@ -144,7 +144,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: "title", name: "title", widget: "string"}
               - {label: "company", name: "company", widget: "string"}
-              - {label: "date_start", name: "date_start", widget: "image"}
+              - {label: "date_start", name: "date_start", widget: "string"}
               - {label: "description", name: "description", widget: "string"} 
               - {label: "clientThumb", name: "clientThumb", widget: "image"} 
 
