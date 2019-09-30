@@ -10,29 +10,31 @@ collections: # A list of collections the CMS should be able to edit
     folder: "content/blog/architure-engineering" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: enable, name: active, widget: boolean, default: true}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Widget name", name: "widget", widget: "string"}
-      - {label: "weight", name: "weight", widget: "string"}
-      - label : "Media coverage Items"
-              name  : "mcover"
-              widget: "list"
-              fields:
-                - {label: "Date", name: "Date", widget: "string"}
-                - {label: "Link", name: "Link", widget: "string"}
-                - {label: "Name", name: "Name", widget: "string"}
-                - {label: "Title", name: "Title", widget: "string"}
+      - {label: "author", name: "author", widget: "string"}
+      - {label: "type", name: "type", widget: "string", required: false}
+      - {label: "url", name: "url", widget: "string", required: false}
+      - {label: "categories", name: "categories", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"} 
   - name: "pages"
     label: "sections"
     files:
-      - file: "content/media-coverage/media-coverage.md"
+      - file: "content/media-coverage/index.md"
         label: "media coverage Page"
         name: "media-coverage"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Widget Type, name: type, widget: string}
-          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - {label: enable, name: active, widget: boolean, default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Widget name", name: "widget", widget: "string"}
+          - {label: "weight", name: "weight", widget: "string"}
+          - label : "Media coverage Items"
+                  name  : "mcover"
+                  widget: "list"
+                  fields:
+                    - {label: "Date", name: "Date", widget: "string"}
+                    - {label: "Link", name: "Link", widget: "string"}
+                    - {label: "Name", name: "Name", widget: "string"}
+                    - {label: "Title", name: "Title", widget: "string"}
           
       - file: "content/intellectual-property/index.md"
         label: "Intellectual Property Page"
