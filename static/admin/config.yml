@@ -130,7 +130,7 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: "course", name: "course", widget: "string"}
                   - {label: "institution", name: "institution", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}  
-      - file: "content/home/admin/experience.md"
+      - file: "content/home/experience.md"
         label: Home Page- Experience  
         name: "experience"
         fields:
