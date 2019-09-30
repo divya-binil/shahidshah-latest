@@ -10,16 +10,22 @@ collections: # A list of collections the CMS should be able to edit
     folder: "content/blog/architure-engineering" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
+      - {label: enable, name: active, widget: boolean, default: true}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "author", name: "author", widget: "string"}
-      - {label: "type", name: "type", widget: "string", required: false}
-      - {label: "url", name: "url", widget: "string", required: false}
-      - {label: "categories", name: "categories", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"} 
+      - {label: "Widget name", name: "widget", widget: "string"}
+      - {label: "weight", name: "weight", widget: "string"}
+      - label : "Media coverage Items"
+              name  : "mcover"
+              widget: "list"
+              fields:
+                - {label: "Date", name: "Date", widget: "string"}
+                - {label: "Link", name: "Link", widget: "string"}
+                - {label: "Name", name: "Name", widget: "string"}
+                - {label: "Title", name: "Title", widget: "string"}
   - name: "pages"
     label: "sections"
     files:
-      - file: "content/media-coverage/index.md"
+      - file: "content/media-coverage/media-coverage.md"
         label: "media coverage Page"
         name: "media-coverage"
         fields:
@@ -29,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Publish Date", name: "date", widget: "datetime"}
           
       - file: "content/intellectual-property/index.md"
-        label: "Products Page"
+        label: "Intellectual Property Page"
         name: "products"
         fields:
           - {label: Title, name: title, widget: string}
