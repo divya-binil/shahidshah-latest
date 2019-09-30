@@ -98,6 +98,13 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Widget name", name: "widget", widget: "string"}
           - {label: "weight", name: "weight", widget: "string"}
+      - file: "content/authors/admin/index.md"
+        label: Home Page- About  
+        name: "about"
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: "Role", name: "role", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
           
 
      
