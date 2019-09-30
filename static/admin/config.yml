@@ -98,7 +98,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Widget name", name: "widget", widget: "string"}
           - {label: "weight", name: "weight", widget: "string"}
-      - file: "content/authors/admin/index.md"
+      - file: "content/authors/admin/_index.md"
         label: Home Page- About  
         name: "about"
         fields:
