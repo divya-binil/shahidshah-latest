@@ -103,7 +103,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "about"
         fields:
           - {label: Name, name: name, widget: string}
-          - {label: Author, name: authors, widget: string}
+          - {label: Author, name: authors, widget: list}
           - {label: "Role", name: "role", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           
